@@ -3,6 +3,16 @@
  * date: 05/21/20
  * description: Simple Seven Segment displaying some characters
  */
+
+// We define first the pins that are going to emit signals from the arduino UNO R3
+int pin_dp=4;
+int pin_a=9;
+int pin_b=8;
+int pin_c=5;
+int pin_d=6;
+int pin_e=7;
+int pin_f=10;
+int pin_g=11;
  
 void setup() {
  // .. doStuff()
